@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/w/snap/pd2026git/behaviortree_26/sp_msgs",
+    "python.analysis.stubPath": "/home/w/.kendryte/k230_canmv_pylance/0c9258e1c6cb148a/typings",
+    "python.analysis.extraPaths": [
+        "/home/w/.kendryte/k230_canmv_stubs/f6ca68a0ed02f8d29d27bcf9681581e9f71209bb"
+    ]
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <AlwaysSuccess/>
+  </BehaviorTree>
+
+  <BehaviorTree ID="jidi">
+    <ReactiveSequence>
+      <SendGoal goal_pose="0; 0; 0; 0; 0; 0; 1"
+                action_name="navigate_to_pose"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="1"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="0"/>
+      <WhileDoElse>
+        <IsStatusOK message="{robot_status}"
+                    hp_threshold="100"
+                    heat_threshold="350"
+                    barrel_heat_limit_threshold="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="0"
+                        auto_aim_mode="0"/>
+        <Sequence>
+          <PubRobotState topic_name="/robot_state"
+                         robot_state="1"/>
+          <PubChassisMode topic_name="/chassis_mode"
+                          chassis_mode="0"/>
+          <SendGoal goal_pose="0; 0; 0; 0; 0; 0; 1"
+                    action_name="navigate_to_pose"/>
+        </Sequence>
+      </WhileDoElse>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="qianshao">
+    <ReactiveSequence>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="3"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <WhileDoElse>
+        <IsEnemyOutpostOK robot_hp="{robot_hp}"
+                          hp_threshold="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="0"
+                        auto_aim_mode="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="3"
+                        auto_aim_mode="3"/>
+      </WhileDoElse>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Condition ID="IsEnemyOutpostOK"
+               editable="true">
+      <input_port name="robot_hp"
+                  default="{robot_hp}"/>
+      <input_port name="hp_threshold"
+                  default="0"/>
+    </Condition>
+    <Condition ID="IsStatusOK"
+               editable="true">
+      <input_port name="message"
+                  default="{robot_status}"/>
+      <input_port name="hp_threshold"
+                  default="100"/>
+      <input_port name="heat_threshold"
+                  default="350">剩余弹量下限</input_port>
+      <input_port name="barrel_heat_limit_threshold"
+                  default="0">枪口热量上限</input_port>
+    </Condition>
+    <Action ID="PubAutoAimMode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/auto_aim_mode"/>
+      <input_port name="key_name"
+                  default="0">0=默认瞄敌人，1=瞄小符，2=瞄大符，3=瞄前哨（旧参数名）</input_port>
+      <input_port name="auto_aim_mode"
+                  default="0">0=瞄敌人，1=瞄小符，2=瞄大符，3=瞄前哨（优先读取）</input_port>
+    </Action>
+    <Action ID="PubChassisMode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/chassis_mode"/>
+      <input_port name="chassis_mode"
+                  default="0">0=正常底盘速度，1=加速底盘旋转，2=过起伏路段，3=过盲道前跟随，4=回盲道前跟随</input_port>
+    </Action>
+    <Action ID="PubRobotState"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/robot_state"/>
+      <input_port name="robot_state"
+                  default="1">1=移动姿态，2=防御姿态，3=进攻姿态</input_port>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0; 0; 0; 0; 0; 0; 1">"x; y; z; qx; qy; qz; qw"（map 坐标系）</input_port>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <!-- MoveAround 模式的追击点规划器：只算点，导航交给 SendGoal（配合 ReactiveSequence 用） -->
+    <Action ID="PursueGoal"
+            editable="true">
+      <input_port name="armors"
+                  default="{armors}">敌人装甲板（来自 SubTargetPos）</input_port>
+      <input_port name="current_location"
+                  default="{current_location}">自身位姿（来自 GetCurrentLocation）</input_port>
+      <input_port name="pursue_radius"
+                  default="2.5">保持的交战距离 / m</input_port>
+      <input_port name="update_interval"
+                  default="0.5">重算间隔 / s，0 = 每 tick 都算</input_port>
+      <input_port name="min_goal_change"
+                  default="0.3">追击点移动超过该距离才改写 goal_pose / m（防 SendGoal 抖动）</input_port>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="map_topic"
+                  default="/map">贴墙检查用的地图（latched，脚本已用 transient_local 订阅）</input_port>
+      <input_port name="wall_check_clearance"
+                  default="0.0">0 = 关闭贴墙检查</input_port>
+      <output_port name="goal_pose"
+                   default="{pursue_goal}">输出 "x;y;z;qx;qy;qz;qw"，交给 SendGoal</output_port>
+      <output_port name="enemy_distance"
+                   default="{enemy_distance}">自身到敌人距离 / m（调试）</output_port>
+    </Action>
+  </TreeNodesModel>
+
+</root>

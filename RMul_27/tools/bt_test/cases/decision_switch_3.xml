@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Fallback>
+      <Sequence>
+        <SubDecisionNum topic_name="/decision_num" decision_num="{decision_num}"/>
+        <DecisionSwitch decision_num="{decision_num}"><PrintMessage message_to_print="CHILD1"/><PrintMessage message_to_print="CHILD2"/></DecisionSwitch>
+        <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+      </Sequence>
+      <PrintMessage message_to_print="CASE_RESULT:FAIL"/>
+    </Fallback>
+  </BehaviorTree>
+</root>

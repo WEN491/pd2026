@@ -1,0 +1,5 @@
+# Runtime dependencies for the sentry RL workspace.
+# Install torch separately with the wheel that matches your machine, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy>=1.21
+PyYAML>=5.4

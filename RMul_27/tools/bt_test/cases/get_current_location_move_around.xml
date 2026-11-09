@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Sequence>
+      <GetCurrentLocation current_location="{current_location}"
+                          target_frame="map"
+                          source_frame="gimbal_yaw"/>
+      <MoveAround message="{current_location}"
+                  expected_dis="0.5"
+                  map_topic="/map"
+                  goal_clearance="0.0"
+                  max_resample="20"
+                  allow_unknown="false"
+                  goal_pose="{goal_pose}"/>
+      <SendGoal goal_pose="{goal_pose}" action_name="navigate_to_pose"/>
+      <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+    </Sequence>
+  </BehaviorTree>
+</root>

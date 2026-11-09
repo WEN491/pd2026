@@ -1,0 +1,474 @@
+[
+  {
+    "name": "sub_game_status_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_game_time_neg_window",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_robot_status_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_status_ok_neg_hp",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_status_ok_missing_message_quirk",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "pub_robot_state",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "pub_chassis_mode",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "pub_auto_aim_mode",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "pub_super_capacitor",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "pub_enemy_status",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "pub_autoaim_target",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "robot_control",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "get_current_location_move_around",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "send_goal_arrive",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "send_goal_abort",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "sub_all_robot_hp_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_outpost_ok_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_auto_aim_status_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "is_auto_aim_ok_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_chassis_energy_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "is_chassis_energy_ok_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_remote_status_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_remote_status_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_rune_status_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_rune_status_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "sub_target_pos_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_detect_enemy_neg_range",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "is_detect_enemy_no_target",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "sub_gimbal_target_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_gimbal_target_valid_timeout",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "is_gimbal_target_in_zone_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_gimbal_target_in_zone_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_target_in_zone_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "is_target_in_zone_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_base_status_ok_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "is_base_status_ok_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "is_enemy_outpost_ok_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_enemy_outpost_ok_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_base_attacked_alive",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_attacked_sawtooth",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_semantic_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_semantic_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_time_to_bullet_pos",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "is_time_to_bullet_neg",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "is_friend_ok_missing_message",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "is_rfid_detected_missing",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "sub_decision_num_action_selector",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "action_selector_out_of_range",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "action_selector_cooldown",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "decision_switch_1",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "decision_switch_3",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "rate_controller_2hz",
+    "status": "FAIL",
+    "errors": [
+      "count('RATE_TICK')=410，期望 [5, 20]"
+    ],
+    "duration": 5.22
+  },
+  {
+    "name": "wait_duration_800ms",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "print_message_literal",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "set_get_blackboard_true",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "set_get_blackboard_false",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "get_blackboard_missing",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "rm_set_blackboard_missing_key",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "pursue_goal_static_enemy",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "pursue_enemy_sends_goal",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.17
+  },
+  {
+    "name": "send_goal_bad_format",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.01
+  },
+  {
+    "name": "unregistered_not",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.01
+  },
+  {
+    "name": "unregistered_sub_armors",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.01
+  },
+  {
+    "name": "unregistered_is_battery_ok",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.01
+  },
+  {
+    "name": "e2e_action01_attack_together",
+    "status": "FAIL",
+    "errors": [
+      "goal 未命中 (2.21, 0.89) ±0.35; 实际 [(3.2, 0.0)]"
+    ],
+    "duration": 6.52
+  },
+  {
+    "name": "e2e_action02_defend_together",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action03_home_outpost",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "e2e_action04_away_outpost",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action05_fortress",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action06_hold_home_outpost",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action07_hold_away_outpost",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action08_last_stand",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "e2e_action09_pursue",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "e2e_action10_supply",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action11_home_outpost_heal",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.22
+  },
+  {
+    "name": "e2e_action12_away_outpost_heal",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "e2e_fallback_action0",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  },
+  {
+    "name": "e2e_fallback_action99",
+    "status": "PASS",
+    "errors": [],
+    "duration": 5.27
+  }
+]

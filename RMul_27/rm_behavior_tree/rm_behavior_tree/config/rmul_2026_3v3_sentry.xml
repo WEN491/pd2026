@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence>
+      <SendGoal goal_pose="5; 5; 0; 0; 0; 0; 1"
+                action_name="navigate_to_pose"/>
+    </Sequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Subtree">
+    <ReactiveSequence>
+      <ReactiveSequence>
+        <SubGameStatus topic_name="/game_status"
+                       game_status="{game_status}"/>
+        <SubRobotStatus topic_name="/robot_status"
+                        robot_status="{robot_status}"/>
+        <SubAutoAimStatus topic_name="/auto_aim_status"
+                          auto_aim_status="{auto_aim_status}"/>
+        <SubChassisEnergy topic_name="/chassis_energy"
+                          chassis_energy="{chassis_energy}"/>
+        <SubRemoteStatus topic_name="/remote_status"
+                         remote_status="{remote_status}"/>
+        <ForceSuccess>
+          <GetCurrentLocation current_location="{current_location}"
+                              target_frame="map"
+                              source_frame="gimbal_yaw"/>
+        </ForceSuccess>
+        <ForceSuccess>
+          <SubTargetPos topic_name="/auto_aim_target_pos"
+                        target_frame="map"
+                        source_frame="odom"
+                        armors="{armors}"/>
+        </ForceSuccess>
+        <ForceSuccess>
+          <IsDetectEnemy message="{armors}"
+                         max_range="-1.0"
+                         current_location="{current_location}"
+                         debounce_ms="200"/>
+        </ForceSuccess>
+        <IsGameTime message="{game_status}"
+                    game_progress="4"
+                    lower_remain_time="0"
+                    higher_remain_time="420"/>
+      </ReactiveSequence>
+      <ReactiveFallback>
+        <Sequence>
+          <IsGameTime message="{game_status}"
+                      game_progress="4"
+                      lower_remain_time="0"
+                      higher_remain_time="420"/>
+          <Inverter>
+            <IsStatusOK message="{robot_status}"
+                        hp_threshold="150"
+                        heat_threshold="50"
+                        barrel_heat_limit_threshold="65535"/>
+          </Inverter>
+          <ReactiveSequence>
+            <PubRobotState topic_name="/robot_state"
+                           robot_state="2"/>
+            <PubChassisMode topic_name="/chassis_mode"
+                            chassis_mode="1"/>
+            <SendGoal goal_pose="-0.000;0.005;0.197; 0; 0; 0; 1"
+                      action_name="navigate_to_pose"/>
+          </ReactiveSequence>
+        </Sequence>
+        <AlwaysSuccess/>
+      </ReactiveFallback>
+      <ForceSuccess>
+        <ReactiveSequence>
+          <IsGameTime message="{game_status}"
+                      game_progress="4"
+                      lower_remain_time="370"
+                      higher_remain_time="420"/>
+          <PubRobotState topic_name="/robot_state"
+                         robot_state="1"/>
+          <SendGoal goal_pose="5.238;-4.222;0.182; 0; 0; 0; 1"
+                    action_name="navigate_to_pose"/>
+          <ForceSuccess>
+            <Sequence>
+              <GetCurrentLocation current_location="{current_location}"
+                                  target_frame="map"
+                                  source_frame="gimbal_yaw"/>
+              <SubTargetPos topic_name="/auto_aim_target_pos"
+                            target_frame="map"
+                            source_frame="odom"
+                            armors="{armors}"/>
+              <IsDetectEnemy message="{armors}"
+                             max_range="-1.0"
+                             current_location="{current_location}"
+                             debounce_ms="200"/>
+              <IsTargetInZone armors="{armors}"
+                              x1="6.570"
+                              y1="-2.279"
+                              x2="6.017"
+                              y2="-4.760"
+                              x3="2.832"
+                              y3="-4.867"
+                              x4="4.067"
+                              y4="-2.064"/>
+              <PubRobotState topic_name="/robot_state"
+                             robot_state="3"/>
+              <PubSuperCapacitor topic_name="/super_capacitor"
+                                 super_capacitor_state="0"/>
+              <PursueEnemy armors="{armors}"
+                           current_location="{current_location}"
+                           pursue_radius="2.5"
+                           pursue_distance_threshold="0.5"
+                           max_pursuit_points="6"
+                           update_interval="0.5"
+                           enemy_timeout="3.0"
+                           action_name="navigate_to_pose"
+                           target_frame="map"
+                           robot_base_frame="gimbal_yaw"
+                           map_topic="/map"
+                           wall_check_clearance="0.0"/>
+              <SendGoal goal_pose="5.238;-4.222;0.182; 0; 0; 0; 1"
+                        action_name="navigate_to_pose"/>
+            </Sequence>
+          </ForceSuccess>
+        </ReactiveSequence>
+      </ForceSuccess>
+      <ReactiveSequence>
+        <IsGameTime message="{game_status}"
+                    game_progress="4"
+                    lower_remain_time="200"
+                    higher_remain_time="360"/>
+        <SubRemoteStatus topic_name="/remote_status"
+                         remote_status="{remote_status}"/>
+        <SubTargetPos topic_name="/auto_aim_target_pos"
+                      target_frame="map"
+                      source_frame="odom"
+                      armors="{armors}"/>
+        <GetCurrentLocation current_location="{current_location}"
+                            target_frame="map"
+                            source_frame="gimbal_yaw"/>
+        <Inverter>
+          <IsTargetInZone armors="{armors}"
+                          x1="6.570"
+                          y1="-2.279"
+                          x2="6.017"
+                          y2="-4.760"
+                          x3="2.832"
+                          y3="-4.867"
+                          x4="4.067"
+                          y4="-2.064"/>
+        </Inverter>
+        <SendGoal goal_pose="7.630;-1.705;0.242; 0; 0; 0; 1"
+                  action_name="navigate_to_pose"/>
+        <IsStatusOK message="{robot_status}"
+                    hp_threshold="100"
+                    heat_threshold="350"
+                    barrel_heat_limit_threshold="0"/>
+        <Sequence>
+          <PubRobotState topic_name="/robot_state"
+                         robot_state="1"/>
+          <PubChassisMode topic_name="/chassis_mode"
+                          chassis_mode="0"/>
+          <RobotControl stop_gimbal_scan="false"
+                        chassis_spin_vel="3.0"/>
+          <ReactiveSequence>
+            <SubTargetPos topic_name="/auto_aim_target_pos"
+                          target_frame="map"
+                          source_frame="odom"
+                          armors="{armors}"/>
+            <GetCurrentLocation current_location="{current_location}"
+                                target_frame="map"
+                                source_frame="gimbal_yaw"/>
+            <IsDetectEnemy message="{armors}"
+                           max_range="-1.0"
+                           current_location="{current_location}"
+                           debounce_ms="200"/>
+            <Fallback>
+              <PursueEnemy armors="{armors}"
+                           current_location="{current_location}"
+                           pursue_radius="2.5"
+                           pursue_distance_threshold="0.5"
+                           max_pursuit_points="6"
+                           update_interval="0.5"
+                           enemy_timeout="3.0"
+                           action_name="navigate_to_pose"
+                           target_frame="map"
+                           robot_base_frame="gimbal_yaw"
+                           map_topic="/map"
+                           wall_check_clearance="0.0"/>
+              <SendGoal goal_pose="5.238;-4.222;0.182; 0; 0; 0; 1"
+                        action_name="navigate_to_pose"/>
+            </Fallback>
+          </ReactiveSequence>
+          <WaitDuration duration_msec="600"/>
+        </Sequence>
+      </ReactiveSequence>
+      <Sequence>
+        <PubChassisMode topic_name="/chassis_mode"
+                        chassis_mode="1"/>
+        <PubRobotState topic_name="/robot_state"
+                       robot_state="2"/>
+        <WaitDuration duration_msec="1000"/>
+      </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="ces">
+    <ReactiveSequence>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="1"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="0"/>
+      <WaitDuration duration_msec="600"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="2"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <WaitDuration duration_msec="600"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SendGoal goal_pose="5.238;-4.222;0.182; 0; 0; 0; 1"
+                action_name="navigate_to_pose"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="GetCurrentLocation"
+            editable="true">
+      <input_port name="current_location"/>
+      <input_port name="target_frame"/>
+      <input_port name="source_frame"/>
+    </Action>
+    <Action ID="IsDetectEnemy"
+            editable="true">
+      <input_port name="message"/>
+      <input_port name="max_range"/>
+      <input_port name="current_location"/>
+      <input_port name="debounce_ms"/>
+    </Action>
+    <Action ID="IsGameTime"
+            editable="true">
+      <input_port name="message"/>
+      <input_port name="game_progress"/>
+      <input_port name="lower_remain_time"/>
+      <input_port name="higher_remain_time"/>
+    </Action>
+    <Condition ID="IsStatusOK"
+               editable="true">
+      <input_port name="message"
+                  default="{robot_status}"/>
+      <input_port name="hp_threshold"
+                  default="100"/>
+      <input_port name="heat_threshold"
+                  default="350">剩余弹量下限（越大越好）</input_port>
+      <input_port name="barrel_heat_limit_threshold"
+                  default="0">枪口热量上限上限</input_port>
+    </Condition>
+    <Condition ID="IsTargetInZone"
+               editable="true">
+      <input_port name="armors"
+                  default="{armors}"/>
+      <input_port name="x1"/>
+      <input_port name="y1"/>
+      <input_port name="x2"/>
+      <input_port name="y2"/>
+      <input_port name="x3"/>
+      <input_port name="y3"/>
+      <input_port name="x4"/>
+      <input_port name="y4"/>
+    </Condition>
+    <Action ID="PubChassisMode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="chassis_mode"/>
+    </Action>
+    <Action ID="PubRobotState"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="robot_state"/>
+    </Action>
+    <Action ID="PubSuperCapacitor"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/super_capacitor"/>
+      <input_port name="super_capacitor_state"
+                  default="0">0=关闭超电，1=开启超电</input_port>
+    </Action>
+    <Action ID="PursueEnemy"
+            editable="true">
+      <input_port name="armors"
+                  default="{armors}"/>
+      <input_port name="current_location"
+                  default="{current_location}"/>
+      <input_port name="pursue_radius"
+                  default="2.0">保持的交战距离 / m</input_port>
+      <input_port name="pursue_distance_threshold"
+                  default="0.5">敌人移动超过该距离才重发目标 / m</input_port>
+      <input_port name="max_pursuit_points"
+                  default="10">最多发送多少个追击点</input_port>
+      <input_port name="update_interval"
+                  default="0.5">更新间隔 / s</input_port>
+      <input_port name="enemy_timeout"
+                  default="3.0">敌人数据超时 / s</input_port>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="robot_base_frame"
+                  default="gimbal_yaw"/>
+      <input_port name="map_topic"
+                  default="/map"/>
+      <input_port name="wall_check_clearance"
+                  default="0.0">0 = 关闭贴墙检查</input_port>
+    </Action>
+    <Action ID="RobotControl"
+            editable="true">
+      <input_port name="stop_gimbal_scan"/>
+      <input_port name="chassis_spin_vel"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"/>
+      <input_port name="action_name"/>
+    </Action>
+    <Action ID="SubAutoAimStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/auto_aim_status"/>
+      <output_port name="auto_aim_status"
+                   default="{auto_aim_status}"/>
+    </Action>
+    <Action ID="SubChassisEnergy"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/chassis_energy"/>
+      <output_port name="chassis_energy"
+                   default="{chassis_energy}"/>
+    </Action>
+    <Action ID="SubGameStatus"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="game_status"/>
+    </Action>
+    <Action ID="SubRemoteStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/remote_status"/>
+      <output_port name="remote_status"
+                   default="{remote_status}"/>
+    </Action>
+    <Action ID="SubRobotStatus"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="robot_status"/>
+    </Action>
+    <Action ID="SubTargetPos"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="target_frame"/>
+      <input_port name="source_frame"/>
+      <input_port name="armors"/>
+    </Action>
+    <Action ID="WaitDuration"
+            editable="true">
+      <input_port name="duration_msec"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

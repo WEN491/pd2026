@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Fallback>
+      <Sequence>
+        <SubRobotStatus topic_name="/robot_status" robot_status="{robot_status}"/>
+        <IsStatusOK message="{robot_status}" hp_threshold="500" heat_threshold="10" barrel_heat_limit_threshold="400"/>
+        <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+      </Sequence>
+      <PrintMessage message_to_print="CASE_RESULT:FAIL"/>
+    </Fallback>
+  </BehaviorTree>
+</root>

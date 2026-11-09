@@ -1,0 +1,182 @@
+{"t": 0.023281, "topic": "__meta__", "data": {"event": "ready", "pid": 28, "wall_t0": 1794223767.5545769}}
+{"t": 0.124693, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.224224, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.324265, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.424507, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.524378, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.624557, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.724454, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.824547, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.924463, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.035855, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.124493, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.224588, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.324442, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.42486, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.525339, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.625054, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.724598, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.825415, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.92454, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.037087, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.124493, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.224801, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.324341, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.42433, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.524415, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.624856, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.724252, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.824577, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.924385, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.035006, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.124392, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.224325, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.324384, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.396435, "topic": "__config__", "data": {"game_status": {"game_progress": 4, "stage_remain_time": 300}, "robot_status": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false, "hp_pattern": "steady"}, "robot_hp": {"red_outpost_hp": 500, "blue_outpost_hp": 400, "outpost_hp": 500, "enemy_outpost_hp": 400, "base_hp": 5000, "enemy_base_hp": 5000, "red_base_hp": 5000, "blue_base_hp": 5000, "team_color": true, "enemy_color": false}, "chassis_energy": {"chassis_energy": 0}, "auto_aim_status": {"auto_aim_status": 0}, "remote_status": {"remote_control_status": 1}, "rune_status": {"rune_count": 0}, "decision_num": {"decision_num": 1}, "armors": {"x": 5.0, "y": 2.0, "z": 0.0, "frame": "odom", "count": 1}, "terrain_zone": {"data": ""}, "gimbal_target": {"x": 3.0, "y": 4.0}, "nav": {"mode": "arrive", "feedback_distance": 0.1, "duration": 0.5}, "tf": {"odom_xyz": [0.0, 0.0, 0.0], "gimbal_xyz": [0.0, 0.0, 0.0]}}}
+{"t": 3.424085, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.524079, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.62397, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.724085, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.747502, "topic": "__mark__", "data": {"text": "e2e_action01_attack_together"}}
+{"t": 3.824464, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.924546, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.992765, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.993014, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 3.993259, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.993616, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.994052, "topic": "__goal__", "data": {"t": 3.994046, "x": 3.2, "y": 0.0, "z": 0.0, "frame": "map"}}
+{"t": 4.00335, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.003405, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.003527, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.003608, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.013994, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.014051, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.014484, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.014594, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.035843, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.03607, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.036153, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.036401, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.036484, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.036723, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.037131, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.037473, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.037837, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.045634, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.045855, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.046318, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.046417, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.056231, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.056311, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.056634, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.05671, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.066744, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.066972, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.067199, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.067411, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.077339, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.077658, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.077776, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.078044, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.087824, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.088035, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.088139, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.088277, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.098404, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.098916, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.099178, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.09924, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.124268, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.224414, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.324498, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.424541, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.524391, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.624729, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.724291, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.824532, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.924511, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.036589, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.124457, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.225162, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.324422, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.424645, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.524438, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.624871, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.724918, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.824756, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.924184, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.036171, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.124346, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.224462, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.324359, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.424819, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.524547, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.624306, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.724468, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.824167, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.924664, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.035092, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.124438, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.224194, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.324382, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.424243, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.524718, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.624362, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.724346, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.824284, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.924738, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.035172, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.124493, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.224756, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.324463, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.424547, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.52541, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.624275, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.724287, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.824775, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.924563, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.035908, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.124165, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.224132, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.324072, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.424393, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.524655, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.624047, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.724422, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.824096, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.924233, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.035151, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.125275, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.224488, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.324401, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.424774, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.52419, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.624508, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.724833, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.824366, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.924414, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.035123, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.124132, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.2246, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.324868, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.424994, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.524461, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.624512, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.724027, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.824547, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.924577, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.036352, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.124357, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.22413, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.324477, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.424209, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.524729, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.624139, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.724549, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.824551, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.925001, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.034998, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.124698, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.224141, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.324026, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.424617, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}

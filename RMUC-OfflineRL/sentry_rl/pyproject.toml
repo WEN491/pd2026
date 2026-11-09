@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sentry-rl"
+version = "0.1.0"
+description = "RMUC sentry RL training workspace: 7 macro intents over Arena-1"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.21",
+  "PyYAML>=5.4",
+]
+
+[project.optional-dependencies]
+train = ["torch>=2.1", "tensorboard>=2.14"]
+dev = ["pytest>=6.2"]
+
+[tool.setuptools.packages.find]
+include = ["sentry_rl*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

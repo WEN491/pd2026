@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence>
+      <SendGoal goal_pose="5.238;-4.222;0.182; 0; 0; 0; 1"
+                action_name="navigate_to_pose"/>
+      <GetCurrentLocation current_location="{current_location}"
+                          target_frame="map"
+                          source_frame="gimbal_yaw"/>
+      <Fallback>
+        <RetryUntilSuccessful num_attempts="3">
+          <Sequence>
+            <MoveAround message="{current_location}"
+                        expected_dis="0.5"
+                        map_topic="map"
+                        goal_clearance="0.0"
+                        max_resample="20"
+                        allow_unknown="false"
+                        goal_pose="{goal_pose}"/>
+            <SendGoal goal_pose="{goal_pose}"
+                      action_name="navigate_to_pose"/>
+          </Sequence>
+        </RetryUntilSuccessful>
+        <AlwaysSuccess/>
+      </Fallback>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="GetCurrentLocation"
+            editable="true">
+      <output_port name="current_location"
+                   default="{current_location}"/>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="source_frame"
+                  default="gimbal_yaw"/>
+    </Action>
+    <Action ID="MoveAround"
+            editable="true">
+      <input_port name="message"
+                  default="{current_location}">机器人当前位置，来自 GetCurrentLocation</input_port>
+      <input_port name="expected_dis"
+                  default="0.3">撒点半径 / m</input_port>
+      <input_port name="map_topic"
+                  default="/map">用于落点校验的栅格地图话题</input_port>
+      <input_port name="goal_clearance"
+                  default="0.0">直线可达检查的安全间隔 / m，0 = 只检查栅格本身</input_port>
+      <input_port name="max_resample"
+                  default="20">单次 tick 内最多重抽几次</input_port>
+      <input_port name="allow_unknown"
+                  default="false">是否允许落在未知区域（栅格值 -1），只能写 true/false/1/0</input_port>
+      <output_port name="goal_pose"
+                   default="{goal_pose}">输出目标 "x;y;z;qx;qy;qz;qw"，交给 SendGoal 执行</output_port>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0; 0; 0; 0; 0; 0; 1">"x; y; z; qx; qy; qz; qw"（map 坐标系）</input_port>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

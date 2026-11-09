@@ -1,0 +1,13 @@
+[
+  {
+    "name": "e2e_action01_attack_together",
+    "status": "FAIL",
+    "errors": [
+      "goal 未命中 (2.21, 0.89) ±0.35; 实际 [(3.2, 0.0)]"
+    ],
+    "duration": 9.52,
+    "returncode": -9,
+    "stdout_lines": 29,
+    "goal_count": 1
+  }
+]

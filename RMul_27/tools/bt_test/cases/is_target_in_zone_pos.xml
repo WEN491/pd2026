@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Fallback>
+      <Sequence>
+        <ForceSuccess>
+          <SubTargetPos topic_name="/auto_aim_target_pos" target_frame="map" source_frame="odom" armors="{armors}"/>
+        </ForceSuccess>
+        <IsTargetInZone armors="{armors}" x1="4" y1="1" x2="6" y2="1" x3="6" y3="3" x4="4" y4="3"/>
+        <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+      </Sequence>
+      <PrintMessage message_to_print="CASE_RESULT:FAIL"/>
+    </Fallback>
+  </BehaviorTree>
+</root>

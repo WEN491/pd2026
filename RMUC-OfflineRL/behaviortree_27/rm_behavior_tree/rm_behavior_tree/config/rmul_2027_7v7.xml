@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="MainTree">
+  <BehaviorTree ID="Engage">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="3"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SubTargetPos topic_name="/auto_aim_target_pos"
+                    target_frame="map"
+                    source_frame="odom"
+                    armors="{armors}"/>
+      <GetCurrentLocation current_location="{current_location}"
+                          target_frame="map"
+                          source_frame="gimbal_yaw"/>
+      <IsDetectEnemy message="{armors}"
+                     max_range="12.0"
+                     current_location="{current_location}"
+                     debounce_ms="200"/>
+      <PursueEnemy armors="{armors}"
+                   current_location="{current_location}"
+                   pursue_radius="3.0"
+                   pursue_distance_threshold="0.5"
+                   max_pursuit_points="10"
+                   update_interval="0.5"
+                   enemy_timeout="3.0"
+                   action_name="navigate_to_pose"
+                   target_frame="map"
+                   robot_base_frame="gimbal_yaw"
+                   map_topic="/map"
+                   wall_check_clearance="0.0"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="HoldBase">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="2"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SendGoal goal_pose="{goal_hold_base}"
+                action_name="navigate_to_pose"/>
+      <WaitDuration duration_msec="1000"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="HoldOutpost">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SubRobotStatus topic_name="/robot_status"
+                      robot_status="{robot_status}"/>
+      <IfThenElse>
+        <IsStatusOK message="{robot_status}"
+                    hp_threshold="150"
+                    heat_threshold="50"
+                    barrel_heat_limit_threshold="65535"/>
+        <PubRobotState topic_name="/robot_state"
+                       robot_state="3"/>
+        <PubRobotState topic_name="/robot_state"
+                       robot_state="3"/>
+      </IfThenElse>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <IfThenElse>
+        <PubEnemyStatus topic_name="/enemy_status"
+                        invincible_enemy_ids=""/>
+        <ReactiveSequence>
+          <SendGoal goal_pose="{current_location}"
+                    action_name="navigate_to_pose"/>
+          <PubChassisMode topic_name="/chassis_mode"
+                          chassis_mode="1"/>
+        </ReactiveSequence>
+        <ReactiveSequence>
+          <PubChassisMode topic_name="/chassis_mode"
+                          chassis_mode="1"/>
+          <WhileDoElse>
+            <IsSemantic topic_name="terrain_zone"
+                        semantic=""
+                        received="{semantic_now}"/>
+            <ReactiveSequence>
+              <MoveAround message="{current_location}"
+                          expected_dis="0.3"
+                          map_topic="/map"
+                          goal_clearance="0.0"
+                          max_resample="20"
+                          allow_unknown="false"
+                          goal_pose="{goal_pose}"/>
+              <SendGoal goal_pose="{goal_pose}"
+                        action_name="navigate_to_pose"/>
+            </ReactiveSequence>
+            <SendGoal goal_pose="0; 0; 0; 0; 0; 0; 1"
+                      action_name="navigate_to_pose"/>
+          </WhileDoElse>
+        </ReactiveSequence>
+      </IfThenElse>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="MainTree">
+    <KeepRunningUntilFailure>
+      <ReactiveSequence>
+        <SubRobotStatus topic_name="/robot_status"
+                        robot_status="{robot_status}"/>
+        <SetBlackboard output_key="goal_hold_outpost"
+                       value="-3.02; 3.90; 0.0; 0; 0; 0; 1"/>
+        <SetBlackboard output_key="goal_hold_base"
+                       value="-7.43; 0.00; 0.0; 0; 0; 0; 1"/>
+        <SetBlackboard output_key="goal_take_outpost"
+                       value="3.02; -3.90; 0.0; 0; 0; 0; 1"/>
+        <SetBlackboard output_key="goal_take_base"
+                       value="7.43; 0.00; 0.0; 0; 0; 0; 1"/>
+        <SetBlackboard output_key="goal_resupply"
+                       value="-12.60; 5.50; 0.0; 0; 0; 0; 1"/>
+        <SetBlackboard output_key="goal_retreat"
+                       value="-12.60; 5.50; 0.0; 0; 0; 0; 1"/>
+        <Fallback>
+          <Sequence>
+            <SubDecisionNum topic_name="/decision_num"
+                            decision_num="{decision_num}"/>
+            <DecisionSwitch decision_num="{decision_num}">
+              <SubTree ID="HoldOutpost"
+                       goal_hold_outpost="{goal_hold_outpost}"
+                       robot_status="{robot_status}"/>
+              <SubTree ID="HoldBase"
+                       goal_hold_base="{goal_hold_base}"/>
+              <SubTree ID="TakeOutpost"
+                       goal_take_outpost="{goal_take_outpost}"/>
+              <SubTree ID="TakeBase"
+                       goal_take_base="{goal_take_base}"/>
+              <SubTree ID="Resupply"
+                       goal_resupply="{goal_resupply}"/>
+              <SubTree ID="Engage"/>
+              <SubTree ID="Retreat"
+                       goal_retreat="{goal_retreat}"/>
+            </DecisionSwitch>
+          </Sequence>
+          <SubTree ID="HoldOutpost"
+                   goal_hold_outpost="{goal_hold_outpost}"
+                   robot_status="{robot_status}"/>
+        </Fallback>
+      </ReactiveSequence>
+    </KeepRunningUntilFailure>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Resupply">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="1"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="0"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="0.0"/>
+      <SendGoal goal_pose="{goal_resupply}"
+                action_name="navigate_to_pose"/>
+      <WaitDuration duration_msec="1000"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="Retreat">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="2"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SendGoal goal_pose="{goal_retreat}"
+                action_name="navigate_to_pose"/>
+      <WaitDuration duration_msec="1000"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="TakeBase">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="3"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SendGoal goal_pose="{goal_take_base}"
+                action_name="navigate_to_pose"/>
+      <WaitDuration duration_msec="1000"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="TakeOutpost">
+    <ReactiveSequence>
+      <PubAutoAimMode topic_name="/auto_aim_mode"
+                      key_name="0"
+                      auto_aim_mode="0"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="3"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <RobotControl stop_gimbal_scan="false"
+                    chassis_spin_vel="3.0"/>
+      <SendGoal goal_pose="{goal_take_outpost}"
+                action_name="navigate_to_pose"/>
+      <WaitDuration duration_msec="1000"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="jidi">
+    <ReactiveSequence>
+      <SendGoal goal_pose="0; 0; 0; 0; 0; 0; 1"
+                action_name="navigate_to_pose"/>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="1"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="0"/>
+      <WhileDoElse>
+        <IsStatusOK message="{robot_status}"
+                    hp_threshold="100"
+                    heat_threshold="350"
+                    barrel_heat_limit_threshold="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="0"
+                        auto_aim_mode="0"/>
+        <Sequence>
+          <PubRobotState topic_name="/robot_state"
+                         robot_state="1"/>
+          <PubChassisMode topic_name="/chassis_mode"
+                          chassis_mode="0"/>
+          <SendGoal goal_pose="0; 0; 0; 0; 0; 0; 1"
+                    action_name="navigate_to_pose"/>
+        </Sequence>
+      </WhileDoElse>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <BehaviorTree ID="qianshao">
+    <ReactiveSequence>
+      <PubRobotState topic_name="/robot_state"
+                     robot_state="3"/>
+      <PubChassisMode topic_name="/chassis_mode"
+                      chassis_mode="1"/>
+      <WhileDoElse>
+        <IsEnemyOutpostOK robot_hp="{robot_hp}"
+                          hp_threshold="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="0"
+                        auto_aim_mode="0"/>
+        <PubAutoAimMode topic_name="/auto_aim_mode"
+                        key_name="0"
+                        auto_aim_mode="3"/>
+      </WhileDoElse>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Control ID="DecisionSwitch"
+             editable="true">
+      <input_port name="decision_num"
+                  default="{decision_num}">1..7 对应 HoldOutpost..Retreat</input_port>
+    </Control>
+    <Action ID="GetCurrentLocation"
+            editable="true">
+      <output_port name="current_location"
+                   default="{current_location}"/>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="source_frame"
+                  default="gimbal_yaw"/>
+    </Action>
+    <Condition ID="IsDetectEnemy"
+               editable="true">
+      <input_port name="message"
+                  default="{armors}"/>
+      <input_port name="max_range"
+                  default="12.0"/>
+      <input_port name="current_location"
+                  default="{current_location}"/>
+      <input_port name="debounce_ms"
+                  default="200"/>
+    </Condition>
+    <Condition ID="IsEnemyOutpostOK"
+               editable="true">
+      <input_port name="robot_hp"
+                  default="{robot_hp}"/>
+      <input_port name="hp_threshold"
+                  default="0"/>
+    </Condition>
+    <Condition ID="IsSemantic"
+               editable="true">
+      <input_port name="topic_name"
+                  default="terrain_zone">地形语义话题（相对名，跟随命名空间）</input_port>
+      <input_port name="semantic">期望语义；留空 = 断言不在任何 zone</input_port>
+      <output_port name="received"
+                   default="{semantic_now}">当前收到的语义（调试用）</output_port>
+    </Condition>
+    <Condition ID="IsStatusOK"
+               editable="true">
+      <input_port name="message"
+                  default="{robot_status}"/>
+      <input_port name="hp_threshold"
+                  default="150"/>
+      <input_port name="heat_threshold"
+                  default="50">剩余弹量下限</input_port>
+      <input_port name="barrel_heat_limit_threshold"
+                  default="65535">枪口热量上限</input_port>
+    </Condition>
+    <Action ID="MoveAround"
+            editable="true">
+      <input_port name="message"
+                  default="{current_location}">自身位姿（来自 GetCurrentLocation）</input_port>
+      <input_port name="expected_dis"
+                  default="0.3">撒点半径 / m</input_port>
+      <input_port name="map_topic"
+                  default="/map">落点校验用的栅格地图话题</input_port>
+      <input_port name="goal_clearance"
+                  default="0.0">直线可达检查的安全间隔 / m，0=只查栅格本身</input_port>
+      <input_port name="max_resample"
+                  default="20">单次 tick 内最多重抽次数</input_port>
+      <input_port name="allow_unknown"
+                  default="false">是否允许落在未知区域（栅格值 -1）</input_port>
+      <output_port name="goal_pose"
+                   default="{goal_pose}">输出目标 "x;y;z;qx;qy;qz;qw"，交给 SendGoal 执行</output_port>
+    </Action>
+    <Action ID="PubAutoAimMode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/auto_aim_mode"/>
+      <input_port name="key_name"
+                  default="0">0=瞄敌人，1=瞄小符，2=瞄大符，3=瞄前哨（旧参数名）</input_port>
+      <input_port name="auto_aim_mode"
+                  default="0">0=瞄敌人，1=瞄小符，2=瞄大符，3=瞄前哨（优先读取）</input_port>
+    </Action>
+    <Action ID="PubChassisMode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/chassis_mode"/>
+      <input_port name="chassis_mode"
+                  default="0">0=正常，1=加速旋转，2=过起伏，3=过盲道前跟随，4=回盲道前跟随</input_port>
+    </Action>
+    <Action ID="PubEnemyStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/enemy_status"/>
+      <input_port name="invincible_enemy_ids">无敌敌人 ID 列表，如 "1,3,5" 或 "[1,3,5]"，空=全部可打</input_port>
+    </Action>
+    <Action ID="PubRobotState"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/robot_state"/>
+      <input_port name="robot_state"
+                  default="1">1=移动姿态，2=防御姿态，3=进攻姿态</input_port>
+    </Action>
+    <Action ID="PursueEnemy"
+            editable="true">
+      <input_port name="armors"
+                  default="{armors}"/>
+      <input_port name="current_location"
+                  default="{current_location}"/>
+      <input_port name="pursue_radius"
+                  default="3.0"/>
+      <input_port name="pursue_distance_threshold"
+                  default="0.5"/>
+      <input_port name="max_pursuit_points"
+                  default="10"/>
+      <input_port name="update_interval"
+                  default="0.5"/>
+      <input_port name="enemy_timeout"
+                  default="3.0"/>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="robot_base_frame"
+                  default="gimbal_yaw"/>
+      <input_port name="map_topic"
+                  default="/map"/>
+      <input_port name="wall_check_clearance"
+                  default="0.0"/>
+    </Action>
+    <Action ID="RobotControl"
+            editable="true">
+      <input_port name="stop_gimbal_scan"
+                  default="false"/>
+      <input_port name="chassis_spin_vel"
+                  default="3.0"/>
+    </Action>
+    <Action ID="SendGoal"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0; 0; 0; 0; 0; 0; 1">"x; y; z; qx; qy; qz; qw"（map 坐标系）</input_port>
+      <input_port name="action_name"
+                  default="navigate_to_pose"/>
+    </Action>
+    <Action ID="SubDecisionNum"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/decision_num"/>
+      <output_port name="decision_num"
+                   default="{decision_num}"/>
+    </Action>
+    <Action ID="SubRobotStatus"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/robot_status"/>
+      <output_port name="robot_status"
+                   default="{robot_status}"/>
+    </Action>
+    <Action ID="SubTargetPos"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/auto_aim_target_pos"/>
+      <input_port name="target_frame"
+                  default="map"/>
+      <input_port name="source_frame"
+                  default="odom"/>
+      <output_port name="armors"
+                   default="{armors}"/>
+    </Action>
+    <Action ID="WaitDuration"
+            editable="true">
+      <input_port name="duration_msec"
+                  default="1000"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

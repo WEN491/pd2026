@@ -1,0 +1,32 @@
+# ---- large / generated / third-party content ---------------------------------
+/RMUC-OfflineRL/.scratch/
+/RMUC-OfflineRL/sentry_rl/.deps/
+/RMUC-OfflineRL/Arena-1/
+/RMUC-OfflineRL/*.pdf
+build/
+install/
+log/
+/RMul_27/.testhome/
+
+# ---- python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- logs / archives ----------------------------------------------------------
+*.log
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# ---- tooling / os -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/

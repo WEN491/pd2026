@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="rmul_2027_std">
+    <AlwaysSuccess/>
+  </BehaviorTree>
+
+  <BehaviorTree ID="tt">
+    <AlwaysSuccess/>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel/>
+
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Fallback>
+      <Sequence>
+        <SubGimbalTarget topic_name="/gimbal_target_point" gimbal_frame="gimbal_field" gimbal_origin_x="0" gimbal_origin_y="0" gimbal_origin_z="0" gimbal_yaw="0" target_pose="{gimbal_pose}" target_valid="{gimbal_valid}" target_x="{gimbal_x}" target_y="{gimbal_y}"/>
+        <IsGimbalTargetValid message="{gimbal_valid}" target_x="{gimbal_x}" target_y="{gimbal_y}" target_timeout_ms="500"/>
+        <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+      </Sequence>
+      <PrintMessage message_to_print="CASE_RESULT:FAIL"/>
+    </Fallback>
+  </BehaviorTree>
+</root>

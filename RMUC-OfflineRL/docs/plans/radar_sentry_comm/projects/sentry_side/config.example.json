@@ -1,0 +1,9 @@
+{
+  "device": "/dev/ttyUSB0",
+  "baud": 115200,
+  "sender_id": 7,
+  "receiver_id": 9,
+  "state_hz": 1,
+  "engage_action_id": 6,
+  "demo": false
+}

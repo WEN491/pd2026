@@ -1,0 +1,1303 @@
+{"t": 0.022624, "topic": "__meta__", "data": {"event": "ready", "pid": 24, "wall_t0": 1794223723.7601187}}
+{"t": 0.123833, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.223814, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.323834, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.423884, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.524135, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.623901, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.724452, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.824188, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 0.923786, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.035295, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.12378, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.224261, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.32428, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.423898, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.524093, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.623508, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.723749, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.823864, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.923814, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 1.94787, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 1.948141, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 1.948209, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 1.948662, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 1.950264, "topic": "__goal__", "data": {"t": 1.950255, "x": -1.8, "y": 2.6, "z": 0.0, "frame": "map"}}
+{"t": 1.958747, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 1.958965, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 1.959022, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 1.959133, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 1.969191, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 1.969389, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 1.969511, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 1.969864, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 1.979968, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 1.980042, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 1.980871, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 1.980979, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 1.990366, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 1.990443, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 1.990689, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 1.990906, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.000925, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.001012, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.001326, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.001414, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.011595, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.011673, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.012131, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.012224, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.022066, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.022275, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.02253, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.022851, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.036224, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.03633, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.036558, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.036916, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.037679, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.044157, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.044216, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.044431, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.044629, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.054778, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.054976, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.055342, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.055538, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.055731, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.055934, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.056243, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.056554, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.065742, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.065807, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.066092, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.06617, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.076041, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.076093, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.076538, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.076712, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.086635, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.086692, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.086876, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.087066, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.097296, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.097356, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.097545, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.097729, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.107986, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.10804, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.108557, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.108847, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.118291, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.118346, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.118532, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.118771, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.123449, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.129072, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.129127, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.129438, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.129497, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.139713, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.139804, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.140026, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.140223, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.15022, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.150416, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.15062, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.15079, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.160729, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.160784, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.161151, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.161223, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.16128, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.16159, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.161901, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.162262, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.171593, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.171652, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.171965, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.172149, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.182343, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.182418, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.182625, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.182842, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.192867, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.192924, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.193377, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.193441, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.203658, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.203732, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.204046, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.204109, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.214066, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.214128, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.214317, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.214395, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.223453, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.224911, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.225103, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.22517, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.225231, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.23546, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.235654, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.235853, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.236156, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.245948, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.246186, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.246248, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.246444, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.256582, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.256652, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.256859, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.257063, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.257129, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.257313, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.257652, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.257962, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.267594, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.267658, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.267835, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.267903, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.278279, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.278464, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.278672, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.278851, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.288773, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.288843, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.289099, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.289312, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.29937, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.299426, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.299629, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.299821, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.309931, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.310154, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.310222, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.31041, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.320623, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.320696, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.321028, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.32109, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.323445, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.331314, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.331372, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.331661, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.331868, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.34162, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.341686, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.342174, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.342439, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.352154, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.352225, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.352488, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.352576, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.362785, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.363123, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.363304, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.363607, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.363663, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.364022, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.36427, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.364629, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.373571, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.373819, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.373888, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.374242, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.384132, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.384427, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.384771, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.384853, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.394647, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.394845, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.394945, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.395034, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.405304, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.405369, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.405742, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.406058, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.415871, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.415949, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.416199, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.416294, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.423809, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.426394, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.426457, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.42667, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.426878, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.436834, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.43691, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.437143, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.437589, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.447906, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.448005, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.448414, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.448807, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.458352, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.458426, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.458693, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.458913, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.468896, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.469195, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.469495, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.469614, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.479552, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.479795, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.480206, "topic": "__goal__", "data": {"t": 2.480201, "x": -1.8, "y": 2.6, "z": 0.0, "frame": "map"}}
+{"t": 2.480555, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.480625, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.481017, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.481244, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.481468, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.481961, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.490577, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.490821, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.491074, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.491276, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.50129, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.501899, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.502112, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.502448, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.511935, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.512011, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.512488, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.51255, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.522394, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.522573, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.522919, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.522996, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.52354, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.533191, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.533469, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.533884, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.53409, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.543573, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.543834, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.544034, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.544336, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.554137, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.554262, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.554895, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.554953, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.564672, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.564717, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.565314, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.565399, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.575603, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.575776, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.57618, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.576236, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.585776, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.586003, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.586506, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.586583, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.586629, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.586951, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.58714, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.587518, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.596889, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.596932, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.597572, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.597643, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.607328, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.607384, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.607608, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.607663, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.617971, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.618617, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.618706, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.618769, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.623445, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.628654, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.628721, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.629142, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.629343, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.638842, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.639581, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.639787, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.639866, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.649465, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.649512, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.649708, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.649926, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.660001, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.660268, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.660661, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.66075, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.671224, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.671428, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.671756, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.671821, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.681188, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.681271, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.681724, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.68199, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.69245, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.692675, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.692735, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.692984, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.693048, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.693459, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.693684, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.694029, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.702773, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.703559, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.70363, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.703681, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.713409, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.713478, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.713836, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.714125, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.72346, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.724148, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.724207, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.724394, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.724583, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.734348, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.734539, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.734948, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.735023, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.744888, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.745505, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.7458, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.745876, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.75578, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.755998, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.756531, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.756599, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.766175, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.766275, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.766617, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.766852, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.77701, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.7774, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.777471, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.777532, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.787642, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.787688, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.788197, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.788258, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.788435, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.78864, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.788942, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.789251, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.798394, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.798448, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.798741, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.799029, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.809257, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.809311, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.809502, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.80995, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.819746, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.819923, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.820119, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.820189, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.824202, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.830295, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.830348, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.830738, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.83095, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.84082, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.840893, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.841382, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.841439, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.851448, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.851672, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.851859, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.852049, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.862025, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.862241, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.86244, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.8625, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.866593, "topic": "__config__", "data": {"game_status": {"game_progress": 4, "stage_remain_time": 300}, "robot_status": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false, "hp_pattern": "steady"}, "robot_hp": {"red_outpost_hp": 500, "blue_outpost_hp": 400, "outpost_hp": 500, "enemy_outpost_hp": 400, "base_hp": 5000, "enemy_base_hp": 5000, "red_base_hp": 5000, "blue_base_hp": 5000, "team_color": true, "enemy_color": false}, "chassis_energy": {"chassis_energy": 0}, "auto_aim_status": {"auto_aim_status": 0}, "remote_status": {"remote_control_status": 1}, "rune_status": {"rune_count": 0}, "decision_num": {"decision_num": 1}, "armors": {"x": 5.0, "y": 2.0, "z": 0.0, "frame": "odom", "count": 1}, "terrain_zone": {"data": ""}, "gimbal_target": {"x": 3.0, "y": 4.0}, "nav": {"mode": "arrive", "feedback_distance": 0.1, "duration": 0.5}, "tf": {"odom_xyz": [0.0, 0.0, 0.0], "gimbal_xyz": [0.0, 0.0, 0.0]}}}
+{"t": 2.872987, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.87328, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.873524, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.873704, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.883511, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.883715, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.884022, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.884409, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.894243, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.894324, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.894679, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.894742, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.89505, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.895082, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.895401, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.895706, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.904864, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.905062, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.905357, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.905526, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.915488, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.915692, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.915995, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.916277, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.923361, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 2.926125, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.926193, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.926847, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.926911, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.936589, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.936789, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.936994, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.937157, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.947148, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.947829, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.947885, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.94793, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.958346, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.958568, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.958624, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.958828, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.968312, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.968387, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.96858, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.968637, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.978889, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.979661, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.979716, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.979758, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.989977, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 2.990151, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 2.990342, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 2.990626, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 2.999883, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.000086, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.000357, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.00057, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.010787, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.010857, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.011191, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.011726, "topic": "__goal__", "data": {"t": 3.01172, "x": -1.8, "y": 2.6, "z": 0.0, "frame": "map"}}
+{"t": 3.011767, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.012038, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.012307, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.012371, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.012697, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.021825, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.022098, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.022144, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.022377, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.034995, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.035067, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.035124, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.03542, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.035625, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.042694, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.042745, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.043189, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.043262, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.053314, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.053369, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.053698, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.053894, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.063821, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.06447, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.064706, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.065109, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.074438, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.074488, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.075108, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.075167, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.085387, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.085553, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.085733, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.085885, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.095515, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.096124, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.096188, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.096228, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.106189, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.106539, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.106804, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.10697, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.116723, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.116789, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.117008, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.117318, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.117368, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.117405, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.117738, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.118063, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.123497, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.128062, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.128226, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.12832, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.128494, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.137929, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.138011, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.138338, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.138625, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.148698, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.148762, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.149278, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.149341, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.159304, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.159472, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.159795, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.159857, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.169881, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.17082, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.170881, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.170937, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.180572, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.180753, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.180941, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.18111, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.190859, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.191049, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.191231, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.19144, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.201574, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.201912, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.202072, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.202127, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.212375, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.212436, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.213281, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.213337, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.223531, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.224237, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.224298, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.224352, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.224697, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.225023, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.225082, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.225473, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.225953, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.233916, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.233968, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.234396, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.234463, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.244187, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.244659, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.244711, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.245293, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.255645, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.255723, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.255816, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.256055, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.266374, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.266452, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.267205, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.267424, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.27695, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.277204, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.277467, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.277702, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.287712, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.287786, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.288013, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.28822, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.298426, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.298497, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.299095, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.299161, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.309501, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.310014, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.3101, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.310181, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.320022, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.320481, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.320555, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.32062, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.321, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.321215, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.321425, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.321779, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.324137, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.331076, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.331361, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.331684, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.331733, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.341838, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.342246, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.342364, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.342427, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.352615, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.353027, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.353241, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.353702, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.363813, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.364112, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.364336, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.36465, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.37459, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.374814, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.375168, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.37524, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.385294, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.385518, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.385997, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.38606, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.396369, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.396552, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.396883, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.396953, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.406863, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.406914, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.407424, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.40768, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.418158, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.418369, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.418626, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.418932, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.419202, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.41945, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.419854, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.420268, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.4235, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.428449, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.428509, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.4289, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.428966, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.438941, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.43899, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.439285, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.439499, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.449571, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.449627, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.449849, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.450066, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.46025, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.460519, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.460835, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.461194, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.470883, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.470935, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.471325, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.471394, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.481385, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.481847, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.481906, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.482209, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.492123, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.492349, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.492713, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.492778, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.502853, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.503068, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.503448, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.503531, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.513345, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.513796, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.514145, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.514195, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.523613, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.523865, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.524225, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.524541, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.524586, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.534449, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.534709, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.53494, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.535255, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.545067, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.54512, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.545686, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.545762, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.546151, "topic": "__goal__", "data": {"t": 3.546138, "x": -1.8, "y": 2.6, "z": 0.0, "frame": "map"}}
+{"t": 3.546746, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.5472, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.547282, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.547662, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.55617, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.556231, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.556523, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.556781, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.566541, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.566743, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.567114, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.567167, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.57714, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.577333, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.577633, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.577801, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.588017, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.588593, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.588885, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.588935, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.598358, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.598538, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.598838, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.599003, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.60892, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.609199, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.609287, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.609533, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.619484, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.619941, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.619999, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.620038, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.623371, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.630094, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.630306, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.630639, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.630718, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.640511, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.640789, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.641005, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.641126, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.651265, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.651327, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.651602, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.651871, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.652039, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.652279, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.652505, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.652829, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.662176, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.662803, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.662868, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.662952, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.672879, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.672928, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.673172, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.6735, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.683459, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.683681, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.683804, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.684153, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.694009, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.694085, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.694579, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.694818, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.704919, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.705482, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.705671, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.705741, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.715119, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.715194, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.715461, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.715716, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.723485, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.725748, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.725794, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.725976, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.72617, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.736027, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.736095, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.736545, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.7366, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.746489, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.746683, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.746989, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.747146, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.757044, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.757248, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.757468, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.75765, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.757721, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.757782, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.758126, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.758453, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.768001, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.768058, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.768546, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.768608, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.778462, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.778656, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.778848, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.779021, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.789147, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.789218, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.789663, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.789721, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.79967, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.799866, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.80022, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.800275, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.810309, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.810355, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.810559, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.810633, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.82088, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.820937, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.821203, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.821259, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.823243, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.831385, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.83156, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.831868, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.832031, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.84177, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.841837, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.842285, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.842447, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.852304, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.852375, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.852667, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.852935, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.853187, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.85339, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.853687, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.853985, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.863028, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.863217, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.86341, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.863568, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.873585, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.873794, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.874103, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.874164, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.884362, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.884549, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.884719, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.884779, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.895089, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.895147, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.895614, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.895671, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.905578, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.905627, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.905802, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.906076, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.916198, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.91625, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.916588, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.916641, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.923463, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 3.926813, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.927561, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.928076, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.928359, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.937246, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.937317, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.937517, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.937579, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.947718, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.948211, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.94839, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.948449, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.958399, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.958802, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.959007, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.959069, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.959119, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.959334, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.959707, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.960031, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.969213, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.969275, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.969469, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.970485, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.979919, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.979996, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.980333, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 3.980549, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.990485, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 3.991194, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 3.99128, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 3.991366, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.001143, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.001336, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.001563, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.001624, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.011713, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.011767, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.012084, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.012139, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.022301, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.022366, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.022825, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.022877, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.035224, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.035348, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.035457, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.035957, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.036527, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.04328, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.043328, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.043827, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.043908, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.053934, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.05415, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.054509, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.054685, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.064556, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.064744, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.065048, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.065103, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.075204, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.075425, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.075713, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.075949, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.076343, "topic": "__goal__", "data": {"t": 4.076337, "x": -1.8, "y": 2.6, "z": 0.0, "frame": "map"}}
+{"t": 4.076536, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.076732, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.076912, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.077293, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.086234, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.086428, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.086484, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.086576, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.096958, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.09706, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.097346, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.097609, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.107698, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.10792, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.108288, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.108385, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.118165, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.118364, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.118677, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.11885, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.12348, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.128696, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.128895, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.129235, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.129322, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.139153, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.139348, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.139413, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.139519, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.149738, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.149925, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.150109, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.1503, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.160396, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.16047, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.160707, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.160981, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.171624, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.171992, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.172331, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.172386, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.181725, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.181841, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.182321, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.182762, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.182892, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.183143, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.183554, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.18416, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.192559, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.192629, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.192973, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.193211, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.203573, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.203761, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.203975, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.204187, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.213846, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.213934, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.214437, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.214508, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.22361, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.224356, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.22441, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.224701, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.224776, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.234812, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.234879, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.235134, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.235458, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.245588, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.246145, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.246204, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.246249, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.256166, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.256634, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.257041, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.257211, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.2669, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.267295, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.267362, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.267408, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.277664, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.278345, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.278399, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.278796, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.288131, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.288194, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.288482, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.288745, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.289419, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.289476, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.28951, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.289819, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.298981, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.299171, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.299468, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.299521, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.309643, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.309854, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.310294, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.310457, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.320235, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.320416, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.320811, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.320857, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.323418, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.330854, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.331028, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.331448, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.331506, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.341677, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.342147, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.342213, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.34227, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.352343, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.352398, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.352662, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.353111, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.36311, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.363345, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.363544, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.363595, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.373794, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.374055, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.374679, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.374748, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.384369, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.384531, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.384708, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.385012, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.385048, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.385472, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.385525, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.385818, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.395406, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.395598, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.39591, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.395963, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.405984, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.406037, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.406243, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.406432, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.416636, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.416694, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.416964, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.417188, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.423339, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.427459, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.4275, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.427748, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.427803, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.437772, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.437816, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.438118, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.438281, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.448433, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.448625, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.448807, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.448855, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.458959, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.459138, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.459438, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.459491, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.469603, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.469653, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.469886, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.47011, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.480139, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.480177, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.480452, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.480641, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.480687, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.480722, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.481041, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.481347, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.491622, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.491783, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.49199, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.492147, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.501614, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.501843, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.501916, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.50213, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.512055, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.512237, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.51244, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.512507, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.523047, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.523215, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.523304, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.523516, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.524178, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.533058, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.533108, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.533316, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.533513, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.543403, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.543459, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.543657, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.54385, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.553971, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.554026, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.554369, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.554533, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.564495, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.564538, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.564738, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.564918, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.575024, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.575226, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.575422, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.575723, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.585532, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.585768, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.585827, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.58588, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.596087, "topic": "/robot_state", "data": {"state": 2}}
+{"t": 4.596287, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.596613, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.596785, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.606751, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.606799, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.607206, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.607256, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.607807, "topic": "__goal__", "data": {"t": 4.607802, "x": 3.2, "y": 0.0, "z": 0.0, "frame": "map"}}
+{"t": 4.608084, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.608132, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.608172, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.608686, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.618075, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.618133, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.618535, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.618782, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.6233, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.628659, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.628877, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.629039, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.629191, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.639282, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.639333, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.63958, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.639925, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.649953, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.650413, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.650467, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.650509, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.660629, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.660885, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.661106, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.661164, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.67138, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.671625, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.671858, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.671923, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.681875, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.682071, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.682356, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.682735, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.692443, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.692656, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.692723, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.69278, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.703064, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.70327, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.703352, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.703429, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.713685, "topic": "/robot_state", "data": {"state": 3}}
+{"t": 4.71374, "topic": "/auto_aim_mode", "data": {"mode": 0}}
+{"t": 4.714117, "topic": "/chassis_mode", "data": {"mode": 1}}
+{"t": 4.714171, "topic": "/robot_control", "data": {"stop_gimbal_scan": false, "chassis_spin_vel": 3.0}}
+{"t": 4.72344, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.823628, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 4.923813, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.035246, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.123655, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.223872, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.323786, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.423675, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.524468, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.623822, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.723887, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.824004, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 5.92435, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.034962, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.124103, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.223682, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.323822, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.423823, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.523783, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.623801, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.723911, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.824359, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 6.924158, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.034758, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.123834, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.223783, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.324443, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.4245, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.523602, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.623899, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.723786, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.824475, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 7.924059, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.035623, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.124188, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.223843, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.324298, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.423784, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.523667, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.62372, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.724162, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.823864, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 8.924077, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.035435, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.123979, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.223763, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.323889, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.42421, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.524184, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.623893, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.723872, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.824191, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 9.924055, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.035245, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.12375, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.223882, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.324157, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.424119, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.523713, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.623851, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.723878, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.823665, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 10.924197, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.034388, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.124423, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.223734, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.32362, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.424017, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.523628, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.624494, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.723718, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.824234, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 11.923858, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.040554, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.123822, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.223666, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.323973, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.424337, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.524062, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.623929, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.723644, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.823618, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 12.923806, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.034113, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.123717, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.223675, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.32357, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.424042, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.523879, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.623695, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.724162, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.82365, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 13.923576, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.034194, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.123552, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.223986, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.324235, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.42438, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.523723, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.623919, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.723821, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.823993, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 14.924165, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 15.034997, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}
+{"t": 15.12374, "topic": "/robot_status", "data": {"robot_id": 1, "current_hp": 400, "shooter_barrel_heat_limit": 300, "shooter_heat": 100, "team_color": false, "is_attacked": false}}

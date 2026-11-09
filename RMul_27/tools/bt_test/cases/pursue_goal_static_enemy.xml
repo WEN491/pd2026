@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <ReactiveSequence>
+        <ForceSuccess>
+          <SubTargetPos topic_name="/auto_aim_target_pos" target_frame="map" source_frame="odom" armors="{armors}"/>
+        </ForceSuccess>
+        <GetCurrentLocation current_location="{current_location}" target_frame="map" source_frame="gimbal_yaw"/>
+      <PursueGoal armors="{armors}" current_location="{current_location}"
+                  pursue_radius="2.5" update_interval="0.5" min_goal_change="1.0"
+                  target_frame="map" map_topic="/map" wall_check_clearance="0.0"
+                  goal_pose="{pursue_goal}"/>
+      <SendGoal goal_pose="{pursue_goal}" action_name="navigate_to_pose"/>
+      <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+    </ReactiveSequence>
+  </BehaviorTree>
+</root>

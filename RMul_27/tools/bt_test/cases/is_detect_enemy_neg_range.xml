@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="T">
+  <BehaviorTree ID="T">
+    <Fallback>
+      <Sequence>
+        <ForceSuccess>
+          <SubTargetPos topic_name="/auto_aim_target_pos" target_frame="map" source_frame="odom" armors="{armors}"/>
+        </ForceSuccess>
+        <GetCurrentLocation current_location="{current_location}" target_frame="map" source_frame="gimbal_yaw"/>
+        <IsDetectEnemy message="{armors}" max_range="1.0" current_location="{current_location}" debounce_ms="200"/>
+        <PrintMessage message_to_print="CASE_RESULT:PASS"/>
+      </Sequence>
+      <PrintMessage message_to_print="CASE_RESULT:FAIL"/>
+    </Fallback>
+  </BehaviorTree>
+</root>
